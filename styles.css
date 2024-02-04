@@ -8,7 +8,7 @@
     background-color:white;
     width: 100%;
     height: 60px;
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -106,4 +106,87 @@
     background-color: rgb(219, 215, 215);
     width: 100%;
     height: 1200px;
+    
 }
+
+.aside-left{
+    background-color: rgb(219, 215, 215);
+    position:fixed ;
+    width: 20%;
+    height: 1200px;
+    margin-top: 60px;
+}
+
+.icons{
+    width: 100px;
+    height: 400px;
+    background-color:  rgb(219, 215, 215);
+    float: right;
+    margin-top: 40%;
+    display: grid;
+    justify-content: space-evenly;
+
+}
+
+.single-icons{
+    height: 64px;
+    width: 63px;
+    background-color:  rgb(219, 215, 215);
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    
+}
+
+.only-icons i{
+font-size: 2rem;
+
+}
+
+.only-icons{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(219, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+}
+
+.only-icons:hover{
+    color: red;
+}
+
+.ellipsis:hover{
+    border-radius: 100%;
+    background-color: rgb(146, 141, 141);
+    color: black;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+   
+  }
+
+  .dropdown-options a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
