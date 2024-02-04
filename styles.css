@@ -110,9 +110,7 @@
     
     display: flex;
     justify-content: space-between;
-    
-
-    
+ 
 }
 
  .aside-left{
@@ -206,7 +204,7 @@ font-size: 2rem;
     margin-top: 70px;
     justify-content:center;
     margin-right: 1rem;
-    display: flex;
+    display: block;
   }
  
   
@@ -216,6 +214,7 @@ font-size: 2rem;
     border-top-left-radius:20px ;
     border-top-right-radius: 20px;
     margin-left: 11%;
+    height: 6500px;
   }
 
   .main-body-headin{
@@ -366,5 +365,29 @@ li{
     font-size: large;
 }
 
+.mid-head{
+    height: 420px;
+    width: 100%;
+    background-color: #575757;
+}
 
+.mid-head-section{
+    padding: 8%;
+}
+h1{
+    font-weight:bolder;
+    font-size: 4rem;
+}
+
+.main-mid-content{
+    height: 6200px;
+    width: 100%;
+    background-color: #aaa5a5;
+}
+
+.main-mid-content-inner{
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
  
