@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: space-evenly;
     border-bottom: grey;
+    z-index: 1000;
+    
 }
 
 .nav-dev-logo i{
@@ -103,24 +105,30 @@
 }
 
 .main{
-    background-color: rgb(219, 215, 215);
+    background-color: rgb( 245, 245, 245 );
     width: 100%;
-    height: 1200px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+
     
 }
 
-.aside-left{
-    background-color: rgb(219, 215, 215);
+ .aside-left{
+    background-color: rgb( 245, 245, 245 );
     position:fixed ;
-    width: 20%;
-    height: 1200px;
-    margin-top: 60px;
+    width: 10%;
+    top: 60px;
+    bottom: 0px;
+    overflow-y: auto;
+    float: left;
 }
 
 .icons{
     width: 100px;
     height: 400px;
-    background-color:  rgb(219, 215, 215);
+    background-color: rgb( 245, 245, 245 );
     float: right;
     margin-top: 40%;
     display: grid;
@@ -131,7 +139,7 @@
 .single-icons{
     height: 64px;
     width: 63px;
-    background-color:  rgb(219, 215, 215);
+    background-color: rgb( 245, 245, 245 );
     display: grid;
     justify-content: space-evenly;
     margin-top: 15px;
@@ -146,7 +154,7 @@ font-size: 2rem;
 .only-icons{
     height: 40px;
     width: 40px;
-    background-color: rgb(219, 215, 215);
+    background-color: rgb( 245, 245, 245 );
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -167,7 +175,7 @@ font-size: 2rem;
     display: inline-block;
     position: relative;
   }
-  
+
   .dropdown-options {
     display: none;
     position: absolute;
@@ -189,4 +197,174 @@ font-size: 2rem;
   
   .dropdown:hover .dropdown-options {
     display: block;
+  } 
+
+
+.column {
+    
+    height: 1200px; 
+    margin-top: 70px;
+    justify-content:center;
+    margin-right: 1rem;
+    display: flex;
   }
+ 
+  
+  .middle {
+    width: 65%;
+    background-color: white;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    margin-left: 11%;
+  }
+
+  .main-body-headin{
+    background-color: blue;
+    width: 40px;
+    height: 100px;
+
+}
+
+  .right {
+    width: 30%;
+    background-color: rgb( 245, 245, 245 );
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    display: block;
+    /* float: right;  */
+  }
+
+  .aside-section-1{
+    background-color: rgb(255, 255, 255);
+    max-width: 60%;
+    height: 500px;
+    border-radius:20px ;
+    border-top: 40px solid #3ed0b3;
+    position: relative;
+    
+    
+}
+
+.name-logo{
+    height: 40px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.logo-only{
+    height: 68px;
+    width: 68px;
+    border-radius:100%;
+    background-color: white;
+    background-image: url(albums/metamask.png);
+    background-size: cover;
+    margin-bottom: 30px;
+    
+}
+
+.name-only{
+    height: 40px;
+    width: 70%;
+    margin-top: 15px;
+}
+
+.name-only p{
+    text-align: left;
+    font-size:xx-large;
+    font-weight: 600;
+}
+
+.name-only:hover{
+    color:#2f3ab2 ;
+}
+
+.main-follow-bu{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.follow-button{
+    margin-top: 20px;
+    position: relative;
+    background-color:#4651c4;
+    height: 40px;
+    width: 90%;
+    border-radius: 6px;
+}
+
+.follow-button:hover{
+    opacity: 97%;
+}
+
+.follow-button p{
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+.about{
+    height: 150px;
+    width: 90%;
+    position: relative;
+}
+
+.about p{ 
+    font-size: larger;
+    color: #575757;
+    word-break: break-word;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center-ok{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+ .details-right{
+    margin-top: 20px;
+    position: relative;
+
+} 
+
+.inner-details-right{
+    height: 150px;
+    width: 100%;
+    list-style:none;
+    margin: 5%;
+    padding: 0;
+    
+    
+}
+
+li{
+    height: 42px;
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #575757;
+
+}
+
+.key{
+    height: 18px;
+    font-weight:bold;
+    font-size: larger;
+}
+
+.value{
+    height: 24px;
+    font-weight: 300;
+    font-size: large;
+}
+
+
+ 
